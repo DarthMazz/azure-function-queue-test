@@ -5,8 +5,8 @@ Azure 上で QueueTrigger と HTTPTrigger のテストをする C# AzureFunction
 
 https://docs.microsoft.com/ja-jp/azure/storage/queues/storage-tutorial-queues?tabs=dotnet
 
-Queues パッケージをインポートする
+Queues パッケージをインポートする  
 dotnet add package Azure.Storage.Queues
 
-ビルドする
+ビルドする  
 dotnet build
