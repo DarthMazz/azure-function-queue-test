@@ -12,7 +12,7 @@
 			"type": "process",
 			"problemMatcher": "$msCompile",
 			"options": {
-				"cwd": "${workspaceFolder}/queue-test-cs2"
+				"cwd": "${workspaceFolder}/http-test-cs3"
 			}
 		},
 		{
@@ -31,7 +31,7 @@
 			},
 			"problemMatcher": "$msCompile",
 			"options": {
-				"cwd": "${workspaceFolder}/queue-test-cs2"
+				"cwd": "${workspaceFolder}/http-test-cs3"
 			}
 		},
 		{
@@ -47,7 +47,7 @@
 			"type": "process",
 			"problemMatcher": "$msCompile",
 			"options": {
-				"cwd": "${workspaceFolder}/queue-test-cs2"
+				"cwd": "${workspaceFolder}/http-test-cs3"
 			}
 		},
 		{
@@ -64,14 +64,14 @@
 			"dependsOn": "clean release",
 			"problemMatcher": "$msCompile",
 			"options": {
-				"cwd": "${workspaceFolder}/queue-test-cs2"
+				"cwd": "${workspaceFolder}/http-test-cs3"
 			}
 		},
 		{
 			"type": "func",
 			"dependsOn": "build",
 			"options": {
-				"cwd": "${workspaceFolder}/queue-test-cs2/bin/Debug/netcoreapp2.1"
+				"cwd": "${workspaceFolder}/http-test-cs3/bin/Debug/netcoreapp2.1"
 			},
 			"command": "host start",
 			"isBackground": true,
